@@ -34,52 +34,6 @@ It allows users to manage recurring subscriptions and utility bills in one place
 - **Bootstrap 5 & Bootstrap Icons** — Responsive grid layout, components, and iconography.
 
 
-BillReminder/
-├── src/main/java/com/manasa/
-│   ├── BillReminderApplication.java
-│   ├── aspect/
-│   │   └── LoggingAspect.java
-│   ├── builder/
-│   │   └── SubscriptionBuilder.java
-│   ├── controller/
-│   │   ├── AuthController.java
-│   │   └── SubscriptionController.java
-│   ├── dto/
-│   │   ├── BillingCycle.java
-│   │   ├── SubscriptionRequestDTO.java
-│   │   ├── SubscriptionResponseDTO.java
-│   │   ├── SubscriptionStatus.java
-│   │   └── UserRegistrationDTO.java
-│   ├── entity/
-│   │   ├── Subscription.java
-│   │   └── User.java
-│   ├── exceptions/
-│   │   ├── GlobalExceptionHandler.java
-│   │   └── SubscriptionNotFoundException.java
-│   ├── repository/
-│   │   ├── SubscriptionRepository.java
-│   │   └── UserRepository.java
-│   ├── scheduler/
-│   │   └── RenewalReminderScheduler.java
-│   ├── security/
-│   │   ├── CustomUserDetailsService.java
-│   │   └── SecurityConfig.java
-│   └── service/
-│       ├── EmailService.java
-│       ├── SubscriptionService.java
-│       ├── UserService.java
-│       └── impl/
-│           ├── EmailServiceImpl.java
-│           ├── SubscriptionServiceImpl.java
-│           └── UserServiceImpl.java
-└── src/main/resources/
-    ├── application.properties.example
-    └── templates/
-        ├── dashboard.html
-        ├── edit-subscription.html
-        ├── login.html
-        └── register.html
-
 
 
 # File-by-File Breakdown
